@@ -1,0 +1,8 @@
+{
+    "autoload": {
+        "psr-0": {"Spolischook\\": "src/"}
+    },
+    "require": {
+        "symfony/http-foundation": "2.4.*@dev"
+    }
+}
