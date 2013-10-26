@@ -14,10 +14,9 @@ $uri = $request->getPathInfo();
 $host = $request->headers->get('host');
 
 $table = new ComputerTable('Yellow');
-$tableType = $table->toString();
 
 $response = new Response();
-$response->setContent($tableType);
+$response->setContent($table);
 $response->setStatusCode(200);
 $response->headers->set('Content-Type', 'text/html');
 

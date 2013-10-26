@@ -19,7 +19,7 @@ class ComputerTable extends AbstractTable implements LiftableInterface
         //Lift our table
     }
 
-    public function toString()
+    public function __toString()
     {
         return $this->getColor() . ' ComputerTable';
     }

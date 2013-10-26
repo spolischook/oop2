@@ -14,7 +14,7 @@ class KitchenTable extends AbstractTable
         // TODO: Implement sitDown() method.
     }
 
-    public function toString()
+    public function __toString()
     {
         return 'KitchenTable';
     }
