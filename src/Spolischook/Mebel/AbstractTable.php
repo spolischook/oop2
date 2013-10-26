@@ -21,7 +21,7 @@ abstract class AbstractTable
 
     abstract public function sitDown();
 
-    abstract public function toString();
+    abstract public function __toString();
 
     /**
      * @return mixed
